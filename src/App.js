@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Loginpage from './components/Loginpage';
+import Home from './components/Home';
+import { useEffect } from 'react';
+import {auth} from './components/Firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import Review from './components/Review';
+import About from './components/about';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      
+
+
+return(
+
+  <BrowserRouter>
+      <Routes>
+            <Route path="/home" element={<Home/>} />
+            <Route path="/review" element={<Review/>} />
+            <Route path="/about" element={<About/>} />
+
+            <Route path="/" element={<Loginpage/>} />
+      </Routes>
+   </BrowserRouter>   
+
+);
+
 }
 
 export default App;

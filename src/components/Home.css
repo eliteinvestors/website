@@ -1,0 +1,181 @@
+.dashboard-box {
+    position: absolute;
+    margin-top: 92%;
+    left: 50%;
+    width: 1400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.1);
+    border-radius: 10px;
+  }
+  .dashboard-box2 {
+    position: absolute;
+    margin-top: 15%;
+    left: 50%;
+    width: 1400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.1);
+    border-radius: 10px;
+  }
+
+  .container1{
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 3%;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,.1);
+    border-radius: 10px;
+
+
+
+  }
+
+  .container{
+    margin-top: 3%;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+
+  
+
+ 
+
+  
+
+  .outer-box{
+    margin-top: 30px;
+    display: flex;
+    border-style: solid;
+    border: red;
+
+  }
+
+  .outer-box:hover {
+    background: white;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e2e7e7,
+                0 0 5px #e2e7e7,
+                0 0 20px #e2e7e7,
+                0 0 50px #e2e7e7;
+  }
+
+  .listing-box{
+    border-style: none;
+    width: 405px;
+  }
+ 
+  .prop-img{
+    width: 400px;
+    border-style: none;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .text-box{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 30px;
+  }
+
+  
+
+  ul {
+    list-style-type: none;
+}
+
+.button-box ul {
+  font-size: 13px;
+  list-style: none;
+  margin-top: 20px;}
+
+  .button-box li {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 320px;
+}
+  
+.button-box button{
+  padding: 9px;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+
+}
+
+.button-box button:hover {
+  background-color: #e7e7e7;
+}
+
+.signout{
+  margin-top: 25px;
+  margin-left: 1500px ;
+  padding: 9px;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  color: white;
+  background-color: #0d6efd;
+
+
+}
+
+
+
+.outer-box p{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+
+}
+
+.img-box-seeking{
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+
+.img-box-pending{
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+.img-box-sold{
+  background-color: brown;
+  border-radius: 10px;
+}
+.img-box-reserved{
+  background-color: darkblue;
+  border-radius: 10px;
+}
+.img-box-accepting{
+  background-color: blue;
+  border-radius: 10px;
+}
+
+h3{
+  text-align: center;
+}
+
+.clicked{
+  background-color: yellowgreen;
+  color: white;
+
+}
+
+  
